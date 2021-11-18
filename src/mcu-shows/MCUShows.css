@@ -1,0 +1,14 @@
+/* 4b. Open the MCUShows.css file and use the "MCUShows" class to set the following styles */
+.MCUShows {
+  border: 10px solid #121f56;
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #1d3e8d;
+  color: RGBA(255, 255, 255, 0.9);
+}
+
+/* 4c. Using the "MCUShows" class in a descendant selector, set the text align  CSS style/property to center the h1 in the MCUShows component. */
+.MCUShows>h1{
+  text-align: center;
+}
