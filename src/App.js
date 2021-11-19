@@ -25,6 +25,9 @@ function App() {
       {/* 2c. Below the h1 pass in an MCUShows component */}
       {/* 5b. Add a prop called "dates" to the MCUShows component that is being passed into the App.js component. Also, set the releaseDates variable as the value that is passed into the "dates" prop */}
       <MCUShows dates={releaseDates}/>
+
+      {/* BONUS: 6d. Below the MCUShows component in the App.js file create an h1 element with the following content inside: "Random MCU Character:" */}
+      <h1>Random MCU Character</h1>
     </div>
   );
 }
