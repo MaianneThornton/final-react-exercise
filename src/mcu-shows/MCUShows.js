@@ -14,6 +14,9 @@ function MCUShows ({dates}){
       <p>Loki: {dates.loki}</p>
       <p>What If...?: {dates.whatIf}</p>
       <p>Hawkeye: {dates.hawkeye}</p>
+
+      {/* BONUS: 6e. In the MCUShows component create a button below the final p (paragraph) element. Set the content/text for the button to the following text: "RANDOM MCU CHARACTER". */}
+      <button>Random MCU Character</button>
     </div>
   );
 }
