@@ -1,5 +1,5 @@
 import "./MCUShows.css";
-
+// 5c
 function MCUShows ({dates}){
   // 1c. Inside the MCUShows function/component, use the RETURN keyword with parentheses to have the MCUShows function/component return the following elements: h1, h2, and 4 p (paragraph) elements. Put the following text in each element. (NOTE: Notice the colon and space after each show name)
   return (
@@ -14,9 +14,6 @@ function MCUShows ({dates}){
       <p>Loki: {dates.loki}</p>
       <p>What If...?: {dates.whatIf}</p>
       <p>Hawkeye: {dates.hawkeye}</p>
-
-      {/* BONUS: 6e. In the MCUShows component create a button below the final p (paragraph) element. Set the content/text for the button to the following text: "RANDOM MCU CHARACTER". */}
-      <button>Random MCU Character</button>
     </div>
   );
 }
