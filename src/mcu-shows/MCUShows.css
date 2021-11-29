@@ -9,6 +9,6 @@
 }
 
 /* 4c. Using the "MCUShows" class in a descendant selector, set the text align  CSS style/property to center the h1 in the MCUShows component. */
-.MCUShows h1{
+.MCUShows h1 {
   text-align: center;
 }
